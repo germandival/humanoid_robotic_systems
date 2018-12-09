@@ -1,0 +1,11 @@
+/**************************************************************************/
+/*                                                                        */
+/* Date: 10.01.2018                                                       */
+/* Author: Daniela Sanchez Lopera  daniela.sanchez.lopera@gmail.com       */
+/* IndiaNAOjones                                                          */
+/* systemPlanner:                                                         */
+/* this code coordinates and launch all the services of the system        */
+/* this code also controls the walk through the laberinth as well as      */
+/* the talk and speech processes                                          */
+/* Humanoid Robotic Systems                                               */
+/**************************************************************************/

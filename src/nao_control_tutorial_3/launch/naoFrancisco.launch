@@ -1,0 +1,15 @@
+<launch>
+  <!--
+  	This pushes the local PYTHONPATH into the launch file, so that the NaoQI API is found.
+    You need to add the Nao's API dir to your PYTHONPATH so that the modules are found.
+  -->
+  <env name="PYTHONPATH" value="$(env PYTHONPATH)" />
+
+  <arg name="nao_ip" default="$(optenv NAO_IP 127.0.0.1)" />
+  <arg name="nao_port" default="$(optenv NAO_PORT 9559)" />
+
+  <node pkg="nao_control_tutorial_3" type="track_service.py" name="track_service" required="true" args="$(arg nao_ip) $(arg nao_port)" output="screen"/>
+  <node pkg="nao_control_tutorial_3" type="grab_ball.py" name="grab_ball" required="true" args="$(arg nao_ip) $(arg nao_port)" output="screen"/>
+  <node pkg="nao_control_tutorial_3" type="handover_ball.py" name="handover_ball" required="true" args="$(arg nao_ip) $(arg nao_port)" output="screen"/>
+
+</launch>

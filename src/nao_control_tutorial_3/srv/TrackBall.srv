@@ -1,0 +1,8 @@
+#CREATE request parameters
+
+string color
+
+--------------------------------
+#CREATE response parameters
+
+float32[] pos

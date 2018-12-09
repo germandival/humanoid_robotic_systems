@@ -1,0 +1,5 @@
+int8 camera
+int32 x
+int32 y
+--------------------------------
+float32 yaw

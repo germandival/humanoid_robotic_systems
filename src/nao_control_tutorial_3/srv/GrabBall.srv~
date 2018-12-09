@@ -1,0 +1,8 @@
+#CREATE request parameters
+
+float32[] pos_ini
+
+--------------------------------
+#CREATE response parameters
+
+float32[] pos

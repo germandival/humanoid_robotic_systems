@@ -1,0 +1,13 @@
+int32 preference
+---
+float32 x
+float32 y
+float32 z
+float32 tetha
+float32 phi
+float32 sci
+int32 id
+int32 boundx
+int32 boundy
+int32 boundh
+int32 boundw
